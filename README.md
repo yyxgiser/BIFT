@@ -33,6 +33,19 @@ pip install -e .
 - SciPy >= 1.5.0
 - Matplotlib >= 3.3.0
 
+### Verify Installation
+
+```bash
+# Check version
+python -m bift --version
+
+# Run tests
+python test_bift.py
+
+# Run demo
+python examples/demo.py
+```
+
 ## Quick Start
 
 ```python
